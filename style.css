@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-right: 119px;
+    color: rgb(32, 143, 124);
+}
+
+#game {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(20, 9, 172);
+}
+
+.col {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: beige;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.col.red {
+    background-color: red;
+}
+
+.col.yellow {
+    background-color: yellow;
+}
+
+.col.pred {
+    background-color: darkred;
+}
+
+.col.pyellow {
+    background-color: darkgoldenrod;
+}
